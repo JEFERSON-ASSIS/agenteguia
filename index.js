@@ -6,9 +6,9 @@ const fs = require('fs');
 const util = require('util');
 const fsp = util.promisify(fs);
 const mime = require('mime-types');
-const projectId = 'guia-obmn';
+const projectId = 'aquiIdAgente';
 
-const sessionClient = new dialogflow.SessionsClient({ keyFilename: 'guia-obmn-8d893cfdff30.json' });
+const sessionClient = new dialogflow.SessionsClient({ keyFilename: 'aquiVaiCodigo.json' });
 
 Whatsapp.create(
     'API-Whatsapp',
